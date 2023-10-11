@@ -1,0 +1,16 @@
+.
+├── README.md
+├── docs
+│   └── repository_structure.txt
+├── report
+│   ├── compile_pdf.sh
+│   ├── figures
+│   ├── pdfs
+│   │   ├── report.pdf
+│   │   └── research.pdf
+│   ├── references.bib
+│   ├── report.typ
+│   ├── research.typ
+│   ├── sources
+│   └── template.typ
+└── src
