@@ -12,5 +12,9 @@
 │   ├── report.typ
 │   ├── research.typ
 │   ├── sources
+│   │   └── references.txt
 │   └── template.typ
+├── requirements.txt
 └── src
+    ├── hardware
+    └── model

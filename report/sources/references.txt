@@ -1,0 +1,10 @@
+# this file holds our linked sources ready to be converted to .bib references
+
+Neural Network Accelerator with FINN
+https://www.youtube.com/watch?v=zw2aG4PhzmA
+
+PYNQ Overview
+https://www.youtube.com/watch?v=IRjrLm8_KB4
+
+Innovative FPGA Approaches to AI
+https://www.youtube.com/watch?v=fxK9HsrO_S4

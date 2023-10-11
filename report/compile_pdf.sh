@@ -2,6 +2,9 @@
 
 echo "compiling our typst files to pdfs..."
 
+# todo: use a python script to generate our references
+# todo: grab our ./sources/references.txt file -> for all links, add to ./references.bib
+
 # create our compiled pdf folder
 mkdir ./pdfs
 
