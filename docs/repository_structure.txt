@@ -1,20 +1,28 @@
 .
 ├── README.md
 ├── docs
+│   ├── figures
+│   │   └── project_workflow.png
 │   └── repository_structure.txt
 ├── report
-│   ├── compile_pdf.sh
+│   ├── compile_report.sh
 │   ├── figures
-│   ├── pdfs
+│   ├── out
 │   │   ├── report.pdf
 │   │   └── research.pdf
 │   ├── references.bib
 │   ├── report.typ
 │   ├── research.typ
 │   ├── sources
+│   │   ├── papers
+│   │   ├── reference_tool.py
 │   │   └── references.txt
 │   └── template.typ
 ├── requirements.txt
 └── src
-    ├── hardware
-    └── model
+    ├── data
+    │   └── README.txt
+    ├── model
+    └── platform
+
+12 directories, 14 files

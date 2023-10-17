@@ -1,1 +1,1 @@
-# todo: add project-specific requirements
+# todo: add basic Python packages
