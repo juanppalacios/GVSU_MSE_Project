@@ -1,19 +1,16 @@
 #import "template.typ": *
 
 #show: ieee.with(
-  title: "Working Title - Hardware Acceleration: Inferring an Emergency Vehicle Classifier",
+  title: "Working Title - Hardware Acceleration: CNN Inference for an Emergency Vehicle Classifier",
   abstract: [
-    Hardware accelerators offer a unique solution to the problem of object detection in computer vision applications.
-    This research focuses on a machine learning application to recognize emergency vehicles on the road.
-    As the number of distracted-related deaths continue to rise, driver safety features are of interest for automotive product companies.
-
-    // context
-    // central questions
-    // what's already known
-    // motivation
-    // methods
-    // results
-    // significance
+    This paper demonstrates the deployment of an emergency vehicle classifier on an embedded device.
+    Distracted driving poses a serious risk to the public's safety and can prevent emergency services from reaching those in need.
+    To address this issue, a machine learning model is used to alert the driver of incoming emergency vehicles.
+    Traditional machine learning models are trained with high-performance Graphical Processing Units (GPUs) with a high degree of accuracy.
+    To achieve similar performance on low-power embedded devices, hardware accelerators are used to outsource heavier computational tasks.
+    Field Programmable Gate Arrays (FPGA)-based accelerators offer reconfigurability to deploy a lightweight Convolutional Neural Network (CNN) model.
+    The following objectives are laid out for this paper: the development of a machine learning model for emergency vehicle classification, deployment of this model to run on a low-power embedded device, and assessing the real-time model performance.
+    This research showcases the feasibility of inferring a lightweight model on a low-power embedded device with the help of an FPGA-based hardware accelerator.
   ],
   authors: (
     (

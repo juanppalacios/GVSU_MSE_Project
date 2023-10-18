@@ -1,6 +1,10 @@
 = Research
-All .pdf sources obtained via Google Scholar.
-Access to IEEE Xplore provided by Grand Valley State University.
+
+== Documentation/Guides
+
+== Papers
+All .pdf's in the sources directory obtained via Google Scholar.
+Access to IEEE Xplore sources provided by Grand Valley State University.
 
 // == Computer Vision
 
@@ -39,7 +43,6 @@ The algorithm uses statistical analysis based on the wavelet representation of a
 The model learns object classes as subsets.
 A face detection dataset is used to benchmark this approach as well as providing a motion-based solution for video purposes.
 
-
 @papageorgiou1998general
 
 
@@ -65,7 +68,15 @@ A face detection dataset is used to benchmark this approach as well as providing
 
 ===== Emergency Vehicle Detection
 
+*Real Time Machine Learning Based Car Detection in Images with Fast Training*
+
+abstract summary:
+
+The purpose of this paper is to demonstrate reliable object recognizers from small data sets.
+Their learning algorithm (AdaBoost novel variant) builds a strong classifier by incrementally training weak classifiers once with no changes to their weights.
+Their experiments show a very accurate model that can recognize cars accurately in real time with fast training.
 @stojmenovic2006real
+
 
 @9225331
 
