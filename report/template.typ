@@ -26,6 +26,8 @@
   // The path to a bibliography file if you want to cite some external
   // works.
   bibliography-file: none,
+  
+  outline: outline(),
 
   // The paper's content.
   body
@@ -60,7 +62,7 @@
   set list(indent: 10pt, body-indent: 9pt)
 
   // Configure headings.
-  set heading(numbering: "I.A.1.")
+  set heading(numbering: "1.a.")
   show heading: it => locate(loc => {
     // Find out the final number of the heading counter.
     let levels = counter(heading).at(loc)
@@ -75,12 +77,12 @@
       // First-level headings are centered smallcaps.
       // We don't want to number of the acknowledgment section.
       #let is-ack = it.body in ([Acknowledgment], [Acknowledgement])
-      #set align(center)
+      // #set align(center)
       #set text(if is-ack { 10pt } else { 12pt })
       #show: smallcaps
       #v(20pt, weak: true)
       #if it.numbering != none and not is-ack {
-        numbering("I.", deepest)
+        numbering("1.", deepest)
         h(7pt, weak: true)
       }
       #it.body
@@ -143,8 +145,8 @@
   v(40pt, weak: true)
 
   // Start two column mode and configure paragraph properties.
-  show: columns.with(2, gutter: 12pt)
-  set par(justify: true, first-line-indent: 1em)
+  show: columns.with(1, gutter: 12pt)
+  set par(leading: 2em, justify: true, first-line-indent: 1em)
   show par: set block(spacing: 0.65em)
 
   // Display abstract and index terms.
@@ -164,6 +166,6 @@
   // Display bibliography.
   if bibliography-file != none {
     show bibliography: set text(8pt)
-    bibliography(bibliography-file, title: text(10pt)[References], style: "ieee")
+    bibliography(bibliography-file, title: text(12pt)[References], style: "ieee")
   }
 }
